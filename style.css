@@ -1,0 +1,84 @@
+td
+{
+    width:80px;
+    height:80px;
+    border: solid 1px black;
+    text-align:center;
+    font-size:20pt;
+    background-color: lightblue;
+}
+
+td:hover
+{
+    background-color: #dbdbdb;
+    cursor:pointer;
+}
+
+#tictac
+{
+	border: solid 1px gray;
+	margin-top: 150px;
+	margin-left: 350px;
+	background-color: linen;
+	width: 45%;	
+}
+#board {
+	/*margin-left: 250px*/;
+	margin-top:10px;
+	display: flex;
+	margin-bottom: 100px;
+}
+#gamename{
+	/*text-align:center;*/
+	margin-left: 205px;
+	width:50%;
+	padding-top:20px;
+	color: red;
+	font-size: 32px;
+
+}
+
+#game{
+
+}
+
+
+#player1{
+	
+	margin: 50px;
+
+}
+
+#player1Name{
+	margin-right: 10px;
+	color: Peru;
+	font-size: 18px;
+	display: inline-block;
+}
+
+#player1Score{
+	font-size: 30pt;
+	/*display: inline-block;*/
+	margin-left: 20px;
+}
+
+#drawBoard{
+	margin-left:20px;
+}
+
+#player2{
+	
+	margin:50px;
+	margin-left: 50px;
+}
+#player2Name{
+	margin-right: 10px;
+	display: inline-block;
+	color: Peru;
+	font-size: 18px;
+}
+#player2Score{
+	font-size: 30pt;
+	/*display: inline-block;*/
+	margin-left: 20px;
+}
